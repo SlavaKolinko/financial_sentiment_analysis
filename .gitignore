@@ -1,0 +1,34 @@
+# віртуальне середовище
+.venv/
+venv/
+
+# байт-код Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# середовища / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# дані
+data/*.csv
+
+# результати навчання
+*.h5
+*.bin
+*.pt
+*.pth
+
+# моделі трансформерів
+distilbert_model/
+*/distilbert_model/
+
+# логи
+*.log
+
+# системні файли
+.DS_Store
+Thumbs.db

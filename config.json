@@ -1,0 +1,13 @@
+{
+  "data_path": "data/new_data.csv",
+  "text_column": "Sentence",
+  "label_column": "Sentiment",
+  "test_size": 0.2,
+  "val_size": 0.1,
+  "random_state": 42,
+  "max_features": 20000,
+  "max_len": 128,
+  "batch_size": 32,
+  "epochs": 3,
+  "lr": 2e-5
+}

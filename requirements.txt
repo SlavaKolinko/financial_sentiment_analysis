@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+tqdm
+tensorflow==2.20.0
+torch
+transformers
+datasets
