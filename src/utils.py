@@ -18,7 +18,7 @@ def load_data(cfg: dict) -> pd.DataFrame:
         raise FileNotFoundError(f"Data file not found: {data_path}")
 
     df = pd.read_csv(data_path)
-    print("⚙️ Завантажено CSV, колонки:", df.columns.tolist())
+    print("Download CSV, columns:", df.columns.tolist())
 
     text_col = cfg["text_column"]
     label_col = cfg["label_column"]
